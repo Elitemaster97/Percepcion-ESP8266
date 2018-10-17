@@ -205,7 +205,7 @@ void loop(){
 
     //Brightness
     luz=analogRead(A0);
-    Pluz=(luz);
+    Pluz=(luz/1024)*100;
 
     //DHT11
     int chk;
